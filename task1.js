@@ -42,7 +42,7 @@ let Image3 = () => {
     const check = y >= 0 && y <= (1 - x ** 2) ** 0.5
         || y <= 0 && y >= -((1 - x ** 2) ** 0.5)
         || x < 0 && y < 0 && y >= -2 - x;
-    chek ? alert('Входит')  : alert('Не входит');
+    check ? alert('Входит')  : alert('Не входит');
     Choise();
 }
 
@@ -52,5 +52,3 @@ let Image1 = () => {
     check ? alert('Входит') : alert('Не выходит')
     Choise();
 }
-
-Choise();
