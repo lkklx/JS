@@ -52,3 +52,4 @@ let Image1 = () => {
     check ? alert('Входит') : alert('Не выходит')
     Choise();
 }
+Choise();
