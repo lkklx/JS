@@ -3,7 +3,7 @@ const a = parseFloat (prompt('Введи a'));
 console.log("a = " + a);
 const b =parseFloat(prompt('Введи b'));
 console.log("b = " + b);
-var x;
+let x;
 if (a==b)
 {
     x = 400;
