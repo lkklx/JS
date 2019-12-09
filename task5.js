@@ -6,3 +6,4 @@ let FrontDoor = () => {
     console.log('Такой квартиры в этом доме нет');
 }
 FrontDoor();
+
